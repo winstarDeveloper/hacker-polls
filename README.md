@@ -2,7 +2,7 @@
 
 - Live: https://hacker-polls.herokuapp.com/
 
-- Login: 
+### Login: 
 
-	username: administrator
-	password: administrator
+	- username: administrator
+	- password: administrator
