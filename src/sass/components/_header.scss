@@ -1,0 +1,37 @@
+.header {
+  &__btns {
+    margin: auto;
+    margin-right: 2rem;
+  }
+
+  &__home {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      text-decoration: none;
+      color: greenyellow;
+    }
+  }
+
+  &__login {
+    margin: 1rem;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover {
+      color: black;
+    }
+
+    &:hover {
+      background-color: white;
+    }
+  }
+
+  &__about {
+    margin: 1rem;
+    margin-right: 0;
+  }
+}

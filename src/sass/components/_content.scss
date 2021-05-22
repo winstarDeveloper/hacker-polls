@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    
+    &__box {
+        width: 20%;
+        margin: 2rem;
+    
+        &-heading {
+            margin: auto;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        &-details {
+            margin: auto;
+            &-list {
+                margin-left: 1rem;
+            }
+        }
+
+        &-table {
+            margin: auto;
+        }
+
+        &-vote {
+            margin-top: 1rem;
+        }
+    }
+}

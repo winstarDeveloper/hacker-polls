@@ -1,0 +1,149 @@
+/*
+0-600px:        Phone
+600-900px:      Tablet Portrait
+900-1200px:     Tablet landscape
+1200-1800px:    Normal Desktops
+1800px + :      Big Desktops 
+*/
+/*
+breakpoint: phone, tab-port, tab-land, big-desktop
+*/
+.animated {
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 100%; }
+
+body {
+  line-height: 1.7;
+  box-sizing: border-box;
+  background-color: #e9e3e3; }
+
+.link {
+  color: black; }
+  .link:hover {
+    color: black;
+    text-decoration: none; }
+
+.app-name {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 5rem; }
+
+.center-text {
+  text-align: center; }
+
+.header__btns {
+  margin: auto;
+  margin-right: 2rem; }
+
+.header__home {
+  text-decoration: none;
+  color: white; }
+  .header__home:hover {
+    text-decoration: none;
+    color: greenyellow; }
+
+.header__login {
+  margin: 1rem; }
+  .header__login a {
+    text-decoration: none;
+    color: white; }
+  .header__login a:hover {
+    color: black; }
+  .header__login:hover {
+    background-color: white; }
+
+.header__about {
+  margin: 1rem;
+  margin-right: 0; }
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto; }
+  .content__box {
+    width: 20%;
+    margin: 2rem; }
+    .content__box-heading {
+      margin: auto;
+      font-size: 1.2rem;
+      font-weight: bold; }
+    .content__box-details {
+      margin: auto; }
+      .content__box-details-list {
+        margin-left: 1rem; }
+    .content__box-table {
+      margin: auto; }
+    .content__box-vote {
+      margin-top: 1rem; }
+
+.login__paper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.login__avatar {
+  margin: 2rem;
+  background-color: #ddd; }
+
+.login__title {
+  margin: 1rem auto; }
+
+.login__form {
+  width: 100%;
+  margin-top: 2rem; }
+
+.login__submit {
+  margin-top: 4rem; }
+
+.login__text {
+  margin: 2rem; }
+
+.login__buttons {
+  width: 100vw;
+  text-align: center; }
+
+.login__options {
+  margin: 0 1rem; }
+
+.login__select {
+  margin: 2rem auto; }
+
+.login__votes {
+  margin: 0 auto; }
+
+.login__votes-title {
+  margin: 2rem auto; }
+
+.login__votes-card {
+  margin: 1rem auto; }

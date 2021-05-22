@@ -1,0 +1,54 @@
+.login {
+    &__paper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__avatar {
+        margin: 2rem;
+        background-color: #ddd;
+    }
+
+    &__title {
+        margin: 1rem auto;
+    }
+
+    &__form {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    &__submit {
+        margin-top: 4rem;
+    }
+
+    &__text {
+        margin: 2rem;
+    }
+
+    &__buttons {
+        width: 100vw;
+        text-align: center;
+    }
+
+    &__options {
+        margin: 0 1rem;
+    }
+
+    &__select {
+        margin: 2rem auto;
+    }
+
+    &__votes {
+        margin: 0 auto;
+    }
+
+    &__votes-title{
+        margin: 2rem auto;
+    }
+
+    &__votes-card{
+        margin: 1rem auto;
+    }
+}
