@@ -11,6 +11,7 @@ import Grid from "@material-ui/core/Grid";
 
 import * as URL from "./../utils/api_urls";
 
+// used session storage instead of persistent
 export default class Login extends Component {
   constructor(props) {
     super(props);
