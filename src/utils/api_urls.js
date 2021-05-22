@@ -1,3 +1,4 @@
+// server url different in production
 export const ServerURL = "http://localhost:8000";
 export const HackersDataURL = ServerURL + "/api/v1/hackers";
 export const LoginURL = ServerURL + "/api/v1/hackers/login";
