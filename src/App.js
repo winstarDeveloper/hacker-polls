@@ -20,6 +20,8 @@ export default class App extends Component {
 
   async componentDidMount() {
     // window.localStorage.clear();
+
+    // Receive data from server
     try {
       const hackers_data_url = URL.HackersDataURL;
       const response = await fetch(hackers_data_url);
